@@ -1,6 +1,6 @@
 # LRNPH-Family-Day 🎉
 
-A web-based system for **La Roise Npire** to manage **event registrations**, **reward claims**, and **admin operations** — featuring user signups, claim verification, and a real-time event dashboard.
+A web-based system for **La Roise Noire** to manage **event registrations**, **reward claims**, and **admin operations** — featuring user signups, claim verification, and a real-time event dashboard.
 
 ---
 
