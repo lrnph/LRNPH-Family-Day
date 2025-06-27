@@ -44,14 +44,18 @@ A web-based system for **La Roise Noire** to manage **event registrations**, **r
    ```bash
    git clone https://github.com/lrnph/LRNPH-Family-Day
    cd lrnph-family-day
+   
 2. Install dependencies on frontend:
 
    ```bash
    cd client
    bun install
+   bun dev
+   
 3. Install dependencies on backend:
 
    ```bash
    cd server
    bun install
+   bun dev
 
