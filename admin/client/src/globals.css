@@ -1,0 +1,27 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap";
+@import "tailwindcss";
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Custom scrollbar using Open Sans and dark neutral tones */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a; /* Tailwind's neutral-800 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #404040; /* Tailwind's neutral-950 */
+  border-radius: 6px;
+  border: 3px solid #0a0a0a; /* Match track */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #404040 #0a0a0a;
+}

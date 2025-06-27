@@ -1,0 +1,33 @@
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Tailwind import (only works in PostCSS or build tools) */
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Minecraft-3";
+  src: url("/fonts/Minecraft_Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Minecraft-4";
+  src: url("/fonts/Minecraft_Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Font Classes */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-minecraft-3 {
+  font-family: "Minecraft-3", monospace;
+}
+
+.font-minecraft-4 {
+  font-family: "Minecraft-4", monospace;
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                          // For modern Node
+    "module": "CommonJS",                        // Use "ESNext" if targeting Bun
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "experimentalDecorators": true,              // Needed by TypeORM
+    "emitDecoratorMetadata": true,               // Needed by TypeORM
+    "esModuleInterop": true,                     // Required for clean import of CommonJS libs
+    "skipLibCheck": true,                        // Optional: avoid .d.ts issues
+    "outDir": "./dist",
+    "rootDir": "./app"
+  },
+  "include": ["app/**/*.ts"]
+}
