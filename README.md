@@ -33,4 +33,25 @@ A web-based system for **La Roise Noire** to manage **event registrations**, **r
 
 - Node.js (v18+ recommended)
 - MSSQL Server (local or remote)
-- bun
+- Node.js (v18+ recommended)  
+- MSSQL Server (local or remote)  
+- bun (JavaScript runtime & package manager)  
+
+### 🔧 Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/lrnph/LRNPH-Family-Day
+   cd lrnph-family-day
+2. Install dependencies on frontend:
+
+   ```bash
+   cd client
+   bun install
+3. Install dependencies on backend:
+
+   ```bash
+   cd server
+   bun install
+
